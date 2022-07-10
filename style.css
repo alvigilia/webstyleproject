@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10%;
+    background-color: #fefae0;
+    color:rgb(60, 48, 0)
+}
+
+div {display:block}
+
+.container {
+    border: 4px solid rgb(60, 48, 0);
+    border-style: double;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #fbf9f0;
+}
+
+
+.panel {
+    display: inline-block;
+    width: 32%;
+    text-align: justify;
+    margin: 20px auto;
+    min-height: 100px;}
+    
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p.color-label {
+    font-size: 1.4em;
+}
+
+@keyframes fadein {
+    from {
+    opacity: 0%;
+    }
+    
+    to {
+    opacity: 100%;
+    }
+    }
+
+
+.color-container {
+    animation-duration: 3s;
+    animation-name: fadein}
+.font-container {
+    animation-duration: 3s;
+    animation-name: fadein}
+
+.text-container {
+    animation-duration: 3s;
+    animation-name: fadein}
+
+.olive-green {
+    color: white;
+    background-color: #A3A380;
+    text-align: center;
+    border-radius: 12px;
+}
+    
+.pale-yellow-green {
+    background-color: #D6CE93;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.green-milk-tea {
+    background-color: #EFEBCE;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.peach-blush {
+    background-color: #D8A48F;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.dust-rose {
+    background-color: #BB8588;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+p.regular {
+    font-style: normal;
+}
+
+p.bold {
+    font-weight: 700;
+}
+
+p.italic {
+   font-style: italic;
+
+}
+
+.montserrat {
+    font-family: Montserrat;
+}
+
+.barlow {
+    font-family: Barlow;
+}
